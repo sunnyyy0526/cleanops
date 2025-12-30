@@ -1,0 +1,126 @@
+.operator-assigned {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1e293b;
+}
+
+.operator-assigned h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.filters label {
+  font-size: 19px;
+  font-weight: 500;
+  color: grey;
+}
+
+.filters select {
+  padding: 10px 14px;
+  width: 160px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  font-size: 14px;
+  background: #ffffff;
+  color: #334155;
+  cursor: pointer;
+}
+
+.filters select:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.table thead {
+  background: #f8fafc;
+}
+
+.table th {
+  padding: 18px 22px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e293b;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.table td {
+  padding: 14px 50px;
+  font-size: 14px;
+  color: #475569;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.table.hover tbody tr:hover {
+  background: #f1f5f9;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 999px;
+  margin-left: 50px;
+  color: #ffffff;
+}
+
+.badge.assigned {
+  background-color: #6366f1;
+}
+
+.badge.on-the-way {
+  background-color: #f59e0b;
+}
+
+.badge.in-progress {
+  background-color: #0ea5e9;
+}
+
+.badge.completed {
+  background-color: #22c55e;
+}
+
+.badge.rejected {
+  background-color: #ef4444;
+}
+
+.btn.small {
+  padding: 6px 10px;
+  margin: 2px;
+  font-size: 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: #e5e7eb;
+  color: #1e293b;
+  transition: all 0.2s ease;
+}
+
+.btn.small:hover {
+  background: #c7d2fe;
+}
+
+.btn.small:disabled {
+  background: #94a3b8;
+  color: #f8fafc;
+  cursor: not-allowed;
+}

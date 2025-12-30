@@ -1,0 +1,139 @@
+.container {
+  width: 80%;
+  height: 70px;
+  margin: 4px auto;
+  text-align: center;
+}
+
+.head {
+  background: linear-gradient(135deg,#ecfdf5,#f8fafc);
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.head h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1d3557;
+}
+
+.head p {
+  font-size: 22px;
+  font-weight: 480;
+  color: grey;
+}
+
+.welcome-banner {
+  height: 65px;
+  margin-top: 22px;
+  border-radius: 12px; 
+  padding: 20px; 
+  text-align: center; 
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.welcome-banner h3 {
+  font-size: 20px;
+  margin: 0 0 5px 0;
+  color: #333;
+}
+
+.welcome-banner p {
+  font-size: 20px;
+  color: grey;
+  margin-top: 5px;
+}
+
+.home-cards {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  margin-top: 30px;
+}
+
+.home-card {
+  width: 45%;
+  height: 220px;
+  background: #fff;
+  padding: 28px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+}
+
+.green {
+  background: #b6f7c9;
+}
+
+.green svg {
+  color: #0a6b2a;
+}
+
+.blue {
+  background: #dce8ff;
+}
+
+.blue svg {
+  color: #0053d6;
+}
+
+.home-card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1d3557;
+  margin-top: -5px;
+  margin-bottom: 13px;
+}
+
+.home-card p {
+  font-size: 20px;
+  color: grey;
+  margin-top: -2px;
+  margin-bottom: 29px;
+}
+
+.submit-btn {
+  background: #0b63ff;
+  color: #fff;
+  border: none;
+  padding: 18px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 3px !important;
+}
+
+.submit-btn:hover {
+  background: #084dcc;
+}
+
+.view-btn {
+  background: #fff;
+  color: #0b63ff;
+  border: 1px solid #0b63ff;
+  padding: 18px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+  
+}
+
+.view-btn:hover {
+  background: #e9f1ff;
+}
